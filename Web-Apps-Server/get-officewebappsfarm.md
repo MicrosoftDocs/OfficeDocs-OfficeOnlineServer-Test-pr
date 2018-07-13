@@ -19,7 +19,9 @@ Returns details about the OfficeWebAppsFarm object that the current server is a 
 
 ## Syntax
 
+```PowerShell
     Get-OfficeWebAppsFarm
+```
 
 ## Detailed Description
 
@@ -35,13 +37,17 @@ The **Get-OfficeWebAppsFarm** cmdlet returns details about the OfficeWebAppsFarm
 
 \------------------EXAMPLE 1---------------------
 
+```PowerShell
     Get-OfficeWebAppsFarm
+```
 
 This example returns details about the OfficeWebAppsFarm object.
 
 \------------------EXAMPLE 2---------------------
 
+```PowerShell
     (Get-OfficeWebAppsFarm).Machines
+```
 
 This example returns details about the servers that are members of the Office Web Apps Server farm. These details include the health status and roles held by each server.
 
