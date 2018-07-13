@@ -78,7 +78,7 @@ The **Remove-OfficeWebAppsMachine** cmdlet removes the current server from the O
 
 \------------------EXAMPLE 1---------------------
 
-```
+```PowerShell
 Remove-OfficeWebAppsMachine
 ```
 
