@@ -74,13 +74,11 @@ The **Set-OfficeWebAppsMachine** cmdlet changes the settings of the current serv
 <p><strong>WordBackEnd</strong></p>
 <p><strong>ExcelBackEnd</strong></p>
 <p><strong>PowerPointBackEnd</strong></p>
-<div class="alert">
 
 > [!IMPORTANT]
 > As a best practice, we recommend that all servers in an Office Web Apps Server farm run all roles. Assigning roles is not useful until the Office Web Apps Server farm contains approximately 50 servers.
 
-
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>WhatIf</strong></p></td>
