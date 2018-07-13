@@ -19,7 +19,9 @@ Returns the zone that is configured on the current SharePoint farm for the WOPI 
 
 ## Syntax
 
+```PowerShell
     Get-SPWOPIZone [-AssignmentCollection <SPAssignmentCollection>]
+```
 
 ## Detailed Description
 
@@ -51,13 +53,10 @@ SharePoint Management Shell
 <td><p>Optional</p></td>
 <td><p>Microsoft.SharePoint.PowerShell.SPAssignmentCollection</p></td>
 <td><p>Manages objects for the purpose of proper disposal. Use of objects, such as <strong>SPWeb</strong> or <strong>SPSite</strong>, can use large amounts of memory and use of these objects in Windows PowerShell scripts requires proper memory management. Using the <strong>SPAssignment</strong> object, you can assign objects to a variable and dispose of the objects after they are needed to free up memory. When <strong>SPWeb</strong>, <strong>SPSite</strong>, or <strong>SPSiteAdministration</strong> objects are used, the objects are automatically disposed of if an assignment collection or the <strong>Global</strong> parameter is not used.</p>
-<div class="alert">
 
 > [!NOTE]
 > When the <STRONG>Global</STRONG> parameter is used, all objects are contained in the global store. If objects are not immediately used, or disposed of by using the <STRONG>Stop-SPAssignment</STRONG> command, an out-of-memory scenario can occur.
 
-
-</div>
 <p></p></td>
 </tr>
 </tbody>
@@ -72,7 +71,9 @@ SharePoint Management Shell
 
 \--------------EXAMPLE-----------------
 
+```PowerShell
     Get-SPWOPIZone
+```
 
 This example returns the zone that is configured for the WOPI application (such as a server that runs Office Web Apps Server) to use. Return values may be “internal-http,” “internal-https,” “external-http” or “external-https.”
 
